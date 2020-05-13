@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccountActivity"
+    >
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textSize="25sp"
+        android:layout_marginHorizontal="100dp"
+        android:background="@android:color/background_dark"
+        android:textColor="@android:color/holo_orange_light"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/pwdfield"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Create Password"
+        />
+
+    <EditText
+        android:id="@+id/repwdfield"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pwdfield"
+        android:layout_marginHorizontal="50dp"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/repwdfield"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginTop="45dp"
+        android:text="Sign UP"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:onClick="setPassword"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SettingsActivity"
+    android:layout_margin="15dp"
+    >
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="Settings"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+
+
+        />
+
+    <EditText
+        android:id="@+id/oldpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your old Password"
+        android:layout_marginBottom="5dp"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/newpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your new Password"
+        android:layout_marginBottom="5dp"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/newpwd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm new Password"
+        android:layout_marginBottom="5dp"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Change Password"
+        android:onClick="changepwd"
+        />
+
+</LinearLayout>

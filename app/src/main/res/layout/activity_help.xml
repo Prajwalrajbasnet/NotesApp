@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HELP"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@color/aboutBackground"
+        android:padding="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click the button to go to our help center"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="6dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center_horizontal"
+        android:onClick="goTo"
+        android:autoLink="web"
+
+        />
+
+
+
+
+</LinearLayout>
